@@ -1,4 +1,3 @@
-
 body {
     background-color: #242424;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,9 +17,8 @@ body {
 }
 
 .items {
-    width: 95%;
-    height: 100%;
-    background-color: #e4e4e4;
+    width: 90%;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +27,8 @@ body {
     padding: 15px;
     border-radius: 10px;
     transition: all 300ms;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 231);
+    padding: 50px;
 }
 
 .items .item h3 {
@@ -38,8 +37,7 @@ body {
 
 .item {
     width: 100%;
-    height: 100%;
-    background-color: #d1d1d1;
+    background-color: #f1f1f1;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -62,6 +60,7 @@ body {
     flex-direction: row;
     gap: 10px;
 }
+
 .page {
     width: 50px;
     height: 50px;
@@ -72,6 +71,16 @@ body {
     align-items: center;
     color: white;
     cursor: pointer;
+    user-select: none;
+    transition: all 150ms;
+
+    &:hover {
+        scale: 105%;
+    }
+
+    &:active {
+        scale: 95%;
+    }
 }
 
 .page:hover {
