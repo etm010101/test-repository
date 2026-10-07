@@ -86,3 +86,13 @@ body {
 .page:hover {
     background-color: #6ecaff;
 }
+
+.pagesbtnoverlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #eaeaea;
+    border: 1px solid rgb(194, 194, 194);
+    gap: 10px;
+}
